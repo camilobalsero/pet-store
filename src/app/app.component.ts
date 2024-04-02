@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'pet-store';
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+  
 }
