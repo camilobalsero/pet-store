@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CartServicesService } from '../../services/cart-services.service';
-
+import {ApiService} from '../../services/api.service'
 @Component({
   selector: 'app-catalogo',
   templateUrl: './catalogo.component.html',
